@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ActividadTDDApp/ActividadTDDApp.csproj" />
+  <Project Path="TestActividadTDDApp/TestActividadTDDApp.csproj" Id="e0632f75-33ef-4d86-a22b-5bea34c17760" />
+</Solution>
