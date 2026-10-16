@@ -4,7 +4,11 @@ using System.Text;
 
 namespace ActividadTDDApp
 {
-    internal class Funciones
+    public class Funciones
     {
+        public static long CalcularFactorial(int n)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
