@@ -13,5 +13,10 @@ namespace ActividadTDDApp
 
             return n * CalcularFactorial(n - 1);
         }
+
+        public static bool EsContrasenyaValida(string contrasenya)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
