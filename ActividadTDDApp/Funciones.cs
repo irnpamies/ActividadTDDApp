@@ -4,7 +4,21 @@ using System.Text;
 
 namespace ActividadTDDApp
 {
-    internal class Funciones
+    public class Funciones
     {
+        public static long CalcularFactorial(int n)
+        {
+            if (n < 0) return -1;
+            if (n == 0 || n == 1) return 1;
+
+            return n * CalcularFactorial(n - 1);
+        }
+
+        public static bool EsContrasenyaValida(string contrasenya)
+        {
+            return !string.IsNullOrEmpty(contrasenya)
+                   && contrasenya.Length >= 8
+                   && contrasenya.Contains('#');
+        }
     }
 }
